@@ -1,0 +1,72 @@
+/*Styling for navbar*/
+.container-fluid{
+    background-color: orange;
+}
+.nav-link{
+    color: black;
+    font-weight: bold;
+}
+
+/*Styling for hero section*/
+.hero{
+    background-color: blue;
+}
+
+.lead{
+    color: white;
+    font-weight: bold;
+}
+
+/*Styling for about us Section*/
+
+.lead2{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.about {
+    position: relative;
+    height: 60vh;
+    color: white;
+    overflow: hidden;
+}
+
+/* This adds a dark overlay ontop of the picture */
+.about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./Images/spices.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    z-index: -1;
+}
+
+/*Find Us section*/
+.find-us-section {
+    position: relative;
+    height: 60vh;
+    color: white;
+    overflow: hidden;
+}
+
+/* This adds a dark overlay ontop of the picture */
+.find-us-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./Images/lambbunnychow.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    z-index: -1;
+}
